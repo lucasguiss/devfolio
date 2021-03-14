@@ -34,8 +34,11 @@ export default defineComponent({
     };
   },
   methods: {
-    changeLanguage() {
+    changeLanguage(): void {
       const language = this.selected.id;
+      if (!language) {
+        return;
+      }
       setI18nLanguage(language);
     },
   },
