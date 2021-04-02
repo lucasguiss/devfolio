@@ -27,15 +27,15 @@ export default defineComponent({
       buttons: [
         {
           text: 'header.buttons.about',
-          path: '',
+          path: '/about-me',
         } as ButtonProps,
         {
           text: 'header.buttons.projects',
-          path: '',
+          path: '/projects',
         } as ButtonProps,
         {
           text: 'header.buttons.contact',
-          path: '',
+          path: '/contact',
         } as ButtonProps,
       ] as Array<ButtonProps>,
     };
