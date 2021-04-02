@@ -1,5 +1,11 @@
 export default {
   'pt-br': {
-    message1: 'exemplo',
+    header: {
+      buttons: {
+        about: '> Sobre',
+        projects: '> Projetos',
+        contact: '> Contato',
+      },
+    },
   },
 };

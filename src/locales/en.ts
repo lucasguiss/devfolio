@@ -1,5 +1,11 @@
 export default {
   en: {
-    message1: 'example',
+    header: {
+      buttons: {
+        about: '> About me',
+        projects: '> Projects',
+        contact: '> Contact',
+      },
+    },
   },
 };
