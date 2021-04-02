@@ -31,22 +31,22 @@ export default defineComponent({
 .btn {
   display: inline-block;
   border: 2px solid;
-  border-color: #875aed;
+  border-color:#d6ba5e;
   width: auto;
   height: 30px;
   border-radius: 2px;
   cursor: pointer;
-  background-color: #f5f5f5;
+  background-color: #3F3F3F;
   min-width: 100px;
 }
 
 .text {
   display: inline-block;
-  color: #875aed;
+  color: #d6ba5e;
   padding: 5px;
 }
 
 .text:hover {
-  color: #48298f;
+  color: #ffd447;
 }
 </style>
