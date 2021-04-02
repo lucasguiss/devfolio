@@ -46,14 +46,18 @@ export default defineComponent({
 .header {
   background-color: #202020;
   overflow: hidden;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
 }
 
 .btn-space {
   display: inline-block;
-  padding-right: 5px;
-  padding-left: 5px;
+  padding-left: 20px;
 }
 
 .buttons {
